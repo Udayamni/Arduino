@@ -1,3 +1,5 @@
+//Interfacing arduino with CPU fan, https://www.intel.com/content/dam/support/us/en/documents/intel-nuc/intel-4wire-pwm-fans-specs.pdf datasheet of fan.
+//
 int potVal;
 int potPin = A2;
 int fanVal;

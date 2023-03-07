@@ -1,7 +1,9 @@
+//Include the relevent lib
 #include<SPI.h>
 #include<Ethernet.h>
 #include<Modbus.h>
 #include<ModbusIP.h>
+//Initialization of Coil and Holding register where holding register is input and Coil is output
 const int COIL  = 10;
 const int COIL1 = 11;
 const int COIL2 = 12;
